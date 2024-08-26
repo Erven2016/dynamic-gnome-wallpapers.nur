@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>Moon far view</name>
+    <filename>/run/current-system/sw/share/backgrounds/custom/moon-far-view-light.png</filename>
+    <filename-dark>/run/current-system/sw/share/backgrounds/custom/moon-far-view-dark.png</filename-dark>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>
