@@ -17,26 +17,31 @@ let
       name = "macos-sonoma";
       format = "png";
       hash = "sha256-AKeaQlven/Y+Jg/AxOCmLH9YlqQJqZj5NM3V29Permo=";
+      version = "2024.08.00-01";
     };
     macos-ventura = {
       name = "macos-ventura";
       format = "png";
       hash = "sha256-PjeUvQEtelbAbCF2UQ/v1Py5/5xJ1Y/UWZYC/8LepRk=";
+      version = "2024.08.00-01";
     };
     moon-far-view = {
       name = "moon-far-view";
       format = "png";
       hash = "sha256-m3niNiEy6njnFKCWYrfbEzCXfV+nmd9HPONSzzej3yE=";
+      version = "2024.08.00-01";
     };
     win11-bloom-gradient = {
       name = "win11-bloom-gradient";
       format = "png";
-      hash = "sha256-nmX2OUXEkewW7gvWvJ8LTsKRiz4mepF0qCnWEh5l9VU=";
+      hash = "sha256-Yn8DKhuS5AOM5J1x1+k3FfmcQak0QIV356qLZNTX4+o=";
+      version = "2024.08.00-01";
     };
     win11-bloom-ventura = {
       name = "win11-bloom-ventura";
       format = "png";
       hash = "sha256-SaS5anRQHT/QKREDlmT+sjTb000awnkHF7vpKu0OqWs=";
+      version = "2024.08.00-01";
     };
   };
 in
