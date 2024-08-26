@@ -11,6 +11,15 @@
 }:
 let
   inherit (pkgs) callPackage;
+
+  meta = {
+    macos-sonoma = {
+      name = "macos-sonoma";
+      format = "png";
+      hash = "sha256-AKeaQlven/Y+Jg/AxOCmLH9YlqQJqZj5NM3V29Permo=";
+    };
+
+  };
 in
 {
   # The `lib`, `modules`, and `overlays` names are special
@@ -18,13 +27,5 @@ in
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  dynamicGnomeWallpapers = {
-    macos-sonoma = callPackage ./wallpapers/build.nix {
-      meta = {
-        name = "macos-sonoma";
-        format = "png";
-        hash = "sha256-AKeaQlven/Y+Jg/AxOCmLH9YlqQJqZj5NM3V29Permo=";
-      };
-    };
-  };
+  macos-sonoma = callPackage ./wallpapers/build.nix meta.macos-sonoma;
 }

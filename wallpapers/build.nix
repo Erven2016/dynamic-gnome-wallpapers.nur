@@ -1,12 +1,12 @@
 {
-  meta,
+  name,
+  format,
+  hash,
   stdenvNoCC,
   fetchzip,
   ...
 }:
 let
-  inherit (meta) name format hash;
-
   repo = "dynamic-gnome-wallpapers.nur";
 
   pname = name;
