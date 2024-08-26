@@ -19,7 +19,7 @@ stdenvNoCC.mkDerivation {
   src = fetchzip {
     url = "https://github.com/Erven2016/dynamic-gnome-wallpapers.nur/archive/refs/tags/${name}.zip";
     hash = hash;
-    # stripRoot = false;
+    stripRoot = false;
   };
 
   installPhase = ''
