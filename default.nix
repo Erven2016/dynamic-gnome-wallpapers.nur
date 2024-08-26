@@ -16,19 +16,19 @@ let
     macos-sonoma = {
       name = "macos-sonoma";
       format = "png";
-      hash = "sha256-AKeaQlven/Y+Jg/AxOCmLH9YlqQJqZj5NM3V29Permo=";
+      hash = "sha256-xcJA2XLar4KoJyBjKl4OQM0EoQXtE7s58dWgJMnh5jY=";
       version = "2024.08.00-01";
     };
     macos-ventura = {
       name = "macos-ventura";
       format = "png";
-      hash = "sha256-PjeUvQEtelbAbCF2UQ/v1Py5/5xJ1Y/UWZYC/8LepRk=";
+      hash = "sha256-w1wK+DgFte/bmMLFwMI1YJCENNJTWPQ1qX5ks/xctC0";
       version = "2024.08.00-01";
     };
     moon-far-view = {
       name = "moon-far-view";
       format = "png";
-      hash = "sha256-m3niNiEy6njnFKCWYrfbEzCXfV+nmd9HPONSzzej3yE=";
+      hash = "sha256-TYz32+wRa7NB9DPTpbWVzW8eFvPiprTDCKzFLtWFn6A";
       version = "2024.08.00-01";
     };
     win11-bloom-gradient = {
@@ -40,7 +40,7 @@ let
     win11-bloom-ventura = {
       name = "win11-bloom-ventura";
       format = "png";
-      hash = "sha256-SaS5anRQHT/QKREDlmT+sjTb000awnkHF7vpKu0OqWs=";
+      hash = "sha256-XvUwsSD6InF2PHMRIyrVOfmRo8ehWW80MswNHUsscU8=";
       version = "2024.08.00-01";
     };
   };
