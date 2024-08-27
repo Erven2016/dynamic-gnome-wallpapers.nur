@@ -25,6 +25,12 @@ let
       hash = "sha256-w1wK+DgFte/bmMLFwMI1YJCENNJTWPQ1qX5ks/xctC0";
       version = "2024.08.00-01";
     };
+    macos-sequoia = {
+      name = "macos-sequoia";
+      format = "png";
+      hash = "sha256-irU8MybGAU3uefssGaC/QARESBYbVLh1LU0l/CSODy0=";
+      version = "2024.08.28-01";
+    };
     moon-far-view = {
       name = "moon-far-view";
       format = "png";
@@ -53,6 +59,7 @@ in
 
   macos-sonoma = callPackage ./wallpapers/build.nix meta.macos-sonoma;
   macos-ventura = callPackage ./wallpapers/build.nix meta.macos-ventura;
+  macos-sequoia = callPackage ./wallpapers/build.nix meta.macos-sequoia;
   moon-far-view = callPackage ./wallpapers/build.nix meta.moon-far-view;
   win11-bloom-gradient = callPackage ./wallpapers/build.nix meta.win11-bloom-gradient;
   win11-bloom-ventura = callPackage ./wallpapers/build.nix meta.win11-bloom-ventura;
